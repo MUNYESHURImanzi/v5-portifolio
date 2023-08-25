@@ -200,9 +200,10 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/me.jpg);
-	
-	/* background-size: cover; */
+	background-image: url(./img/profile.jpeg);
+    
+	background-size: cover; 
+	height: 600px;
 	background-position: center;
 	position: relative;
 	z-index: 1;
@@ -361,7 +362,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background:linear-gradient(to right, rgb(1, 0, 14), rgb(3, 30, 36));
+	background:linear-gradient(to right, rgba(5, 2, 27, 0.253), rgb(3, 30, 36));
 	color: white;
 }
 #projects .project-info h1 {
